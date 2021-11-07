@@ -34,6 +34,11 @@ git add .- Add all the files in the local directory to the remote repository
 
 git commit -m "First commit"- It establishes a connection with local repository
 
+# En este punto preguntó por el usuario y funcionó con lo siguiente:
+git config --global user.email "garcialagos.alejandro@gmail.com"
+
+git config --global user.name "AleGL92"
+
 git push origin master- It establishes a connection with a remote repository and upload your source code or files to GitHub
 
 Note: If you get fatal: remote origin already exists which means the connection is already established.
