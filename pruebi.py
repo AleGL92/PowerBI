@@ -5,7 +5,7 @@ ruta_git = 'https://raw.githubusercontent.com/AleGL92/PowerBI/master/pruebi_exel
 pruebi = pd.read_csv(ruta_local, header = 0, sep = ',')
 print(pruebi.head())
 
-# pruebi['salario'] = pruebi['salario']/1000
-# print(pruebi)
+pruebi['salario'] = pruebi['salario']*1000
+print(pruebi)
 
-# pruebi.to_csv(ruta_local, index = False)
+pruebi.to_csv(ruta_local, index = False)
